@@ -1,0 +1,108 @@
+
+body{
+     font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+.container {
+     display: flex;
+     flex-direction: row;
+     align-items: stretch;
+     min-height: 100vh;
+   }
+
+.content {
+     flex: 1;  
+     padding: 10%;
+     background-color: #ffffff;
+     overflow: auto;
+   }
+   
+   .sidebar {
+     height: 100%; /* 100% Full-height */
+     width: 0; 
+     position: fixed; /* Stay in place */
+     z-index: 1; /* Stay on top */
+     top: 0;
+     left: 0;
+     background-color: #f0f0ff; 
+     overflow-x: hidden; /* Disable horizontal scroll */
+     padding-top: 60px; /* Place content 60px from the top */
+     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+   }
+
+   .openbtn {
+     font-size: 60px;
+     cursor: pointer;
+     background-color: white;
+     color: #111;
+     padding: 10px 15px;
+     border: none;
+   }
+   
+   .sidebar .closebtn {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+   }
+   
+
+   .menu-list {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+   } 
+   
+   .menu-list li {
+     display: flex;
+     align-items: center;
+     padding: 10px 20px;
+   }
+   
+   .menu-icon {
+     font-size: 20px;
+     margin-right: 10px;
+   }
+
+   
+/*@media (max-width: 768px) {
+     .menu-list li {
+       margin-bottom: 10px; 
+     }
+   }   */
+
+.red-icon {
+     font-size: 10px;
+     vertical-align: middle;
+     color: #FFCCCC;
+}
+   
+.green-icon {
+     font-size: 10px;
+     vertical-align: middle;
+     color: #00FF00;
+}
+   
+.cyan-icon {
+     font-size: 10px;
+     vertical-align: middle;
+     color: #33FFFF;
+}
+   
+.blue-icon {
+     font-size: 10px;
+     vertical-align: middle;
+     color: #0099FF;
+}
+   
+.purple-icon {
+     font-size: 10px;
+     vertical-align: middle;
+     color: #0000FF;
+}
+
+
+
