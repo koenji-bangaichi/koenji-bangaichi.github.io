@@ -7,6 +7,8 @@
   <link rel="icon" type="image/png" href="../images/logo.png">
   <script type="text/javascript" src="../static/util.js">  </script>
   <title>イベントスケジュール</title>
+
+
 </head>
 
 <body>
@@ -17,23 +19,168 @@
       <h1 align="center">イベントスケジュール</h1>
       <div class="schedule" align="left" style="padding-left: 10%; padding-right: 10%;">
         <p align="center">以下は暫定的なスケジュールで、詳しく決定次第掲載していきます。</p>
-        <p>
-        ＜スケジュール＞<br>
-        9/22（金）オープニングイベント（Development Base）<br>
-        9/23（土）野外パレードin西荻窪<br>
-        9/24（日）無数の小イベント<br>
-        9/25（月）無数の小イベント<br>
-        9/26（火）無数の小イベント<br>
-        9/27（水）ライブ（Showboat）<br>
-        9/28（木）無数の小イベント<br>
-        9/29（金）ライブ＆上映（TKA4）<br>
-        9/30（土）ライブ（中野MoonStep）<br>
-        10/1（日）野外パレードin高円寺<br>
-        ※飲み会は毎日各所で開催！<br>
-        </p>
+
+        
+        <button class="collapsible">9/22（金） </button>
+        <div class="contents">
+
+          <table>
+            <tr>
+            <td><b>Time</b></td>
+            <td><b>Place</b></td>
+            <td><b>Event</b></td>
+            <td><b>Link</b></td>
+          </tr>
+
+            <tr>
+              <td>15:00-21:00</td>
+              <td>DB</td>
+              <td>NO LIMIT前夜祭番外地の夜明け (オープニングパーティ)</td>
+              <td></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table>
+
+        </div>
+        
+        <button class="collapsible">9/23（土）</button>
+        <div class="contents">
+          <table>
+            <tr>
+              <td><b>Time</b></td>
+              <td><b>Place</b></td>
+              <td><b>Event</b></td>
+              <td><b>Link</b></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table>
+        </div>
+
+        <button class="collapsible">9/24（日）</button>
+        <div class="contents">
+          <table>
+            <tr>
+              <td><b>Time</b></td>
+              <td><b>Place</b></td>
+              <td><b>Event</b></td>
+              <td><b>Link</b></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table>
+        </div>
+
+        <button class="collapsible">9/25（月）</button>
+        <div class="contents">
+          <table>
+            <tr>
+              <td><b>Time</b></td>
+              <td><b>Place</b></td>
+              <td><b>Event</b></td>
+              <td><b>Link</b></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table>
+        </div>
+
+        <button class="collapsible">9/26（火）</button>
+        <div class="contents">
+          <table>
+            <tr>
+              <td><b>Time</b></td>
+              <td><b>Place</b></td>
+              <td><b>Event</b></td>
+              <td><b>Link</b></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table>
+        </div>
+
+        <button class="collapsible">9/27（水）</button>
+        <div class="contents">
+          <table>
+            <tr>
+              <td><b>Time</b></td>
+              <td><b>Place</b></td>
+              <td><b>Event</b></td>
+              <td><b>Link</b></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table>
+        </div>
+
+        <button class="collapsible">9/28（木）</button>
+        <div class="contents">
+          <table>
+            <tr>
+              <td><b>Time</b></td>
+              <td><b>Place</b></td>
+              <td><b>Event</b></td>
+              <td><b>Link</b></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table>
+        </div>
+
+        <button class="collapsible">9/29（金）</button>
+        <div class="contents">
+          <table>
+            <tr>
+              <td><b>Time</b></td>
+              <td><b>Place</b></td>
+              <td><b>Event</b></td>
+              <td><b>Link</b></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table>
+        </div>
+
+        <button class="collapsible">9/30（土）</button>
+        <div class="contents">
+          <table>
+            <tr>
+              <td><b>Time</b></td>
+              <td><b>Place</b></td>
+              <td><b>Event</b></td>
+              <td><b>Link</b></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table>
+        </div>
+
+        <button class="collapsible">10/1（日）</button>
+        <div class="contents">
+          <table>
+            <tr>
+              <td><b>Time</b></td>
+              <td><b>Place</b></td>
+              <td><b>Event</b></td>
+              <td><b>Link</b></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table>
+        </div>
+
+
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+              content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } 
+        });
+       }
+      </script>
+        
       </div>
     </div>
   </div>
+
   <script>
   includeHTML();
   </script> 
