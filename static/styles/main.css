@@ -75,31 +75,31 @@ body{
    }   */
 
 .red-icon {
-     font-size: 10px;
+     font-size: 16px;
      vertical-align: middle;
      color: #FFCCCC;
 }
    
 .green-icon {
-     font-size: 10px;
+     font-size: 16px;
      vertical-align: middle;
      color: #00FF00;
 }
    
 .cyan-icon {
-     font-size: 10px;
+     font-size: 16px;
      vertical-align: middle;
      color: #33FFFF;
 }
    
 .blue-icon {
-     font-size: 10px;
+     font-size: 16px;
      vertical-align: middle;
      color: #0099FF;
 }
    
 .purple-icon {
-     font-size: 10px;
+     font-size: 16px;
      vertical-align: middle;
      color: #0000FF;
 }
