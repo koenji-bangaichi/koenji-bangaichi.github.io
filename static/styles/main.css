@@ -29,7 +29,7 @@ body{
 }
 
 .contents {
-  padding: 0 18px;
+  padding: 0 8px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -46,7 +46,7 @@ body{
 
 .content {
      flex: 1;  
-     padding: 10%;
+     padding: 0%;
      background-color: #ffffff;
      overflow: auto;
    }
@@ -140,9 +140,46 @@ body{
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  width: 100%;
+  max-width: 100%; 
+  overflow-x: auto;
+  display: block;
+  table-layout: fixed; 
 }
 
 th, td {
   padding: 8px;
   text-align: left;
+  white-space: normal; 
+  overflow: auto; 
+}
+
+td:nth-child(1){
+  max-width: 110px;
+  min-width: 110px;
+}
+
+td:nth-child(2){
+  max-width: 100px;
+  min-width: 100px;
+}
+
+td:nth-child(3){
+  max-width: 150px;
+  min-width: 150px;
+}
+
+td:nth-child(4){
+  max-width: 450px;
+  min-width: 450px;
+}
+
+td:nth-child(5){
+  max-width: 120px;
+  min-width: 120px;
+}
+
+td:nth-child(6){
+  max-width: 120px;
+  min-width: 120px;
 }
