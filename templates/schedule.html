@@ -1,4 +1,17 @@
 <!DOCTYPE html>
+<style>
+  .contents {
+    overflow: scroll;
+    max-height: 400px;
+  }
+  .contents table {
+    display: block;
+    white-space: nowrap;
+    overflow: scroll;
+    
+  }
+</style>
+
 <html>
 <head>
   <meta charset="UTF-8">
@@ -12,6 +25,7 @@
 </head>
 
 <body>
+  <div style="overflow-x:auto;">
   <div class="container">
     <div w3-include-html="menu.html"></div> 
     <div class="content">
@@ -23,39 +37,107 @@
         
         <button class="collapsible">9/22（金） </button>
         <div class="contents">
-
+          
           <table>
             <tr>
               <td><b>時間</b></td>
+              <td><b>種類</b></td>
               <td><b>場所</b></td>
-              <td><b>イベント名</b></td>
+              <td><b>イベント内容</b></td>
+              <td><b>¥ 入場料 ¥</b></td>
               <td><b>リンク</b></td>
             </tr> 
 
             <tr>
               <td>15:00-21:00</td>
+              <td>Music Show + Party</td>
               <td>DB</td>
-              <td>オープニングパーティ NO LIMIT前夜祭番外地の夜明け</td>
+              <td>オープニングパーティ（前夜祭）〜NO LIMIT 前夜祭 番外地の夜明け〜 第一会場
+               <br> NO LIMIT Opening Party >>Dawn in Bangaichi<< Venue #1</td>
+              <td>¥1000 (1ドリンク付き includes 1 drink) ***</td>  
               <td></td>
             </tr>
 
             <tr>
-              <td>19:00-24:00</td>
-              <td>SUBSTORE</td>
-              <td>「叩山門」オープニングLIVEイベント、世界の写真家Lo Ching Chiehによる写真展 </td>
+              <td>18:00-24:00</td>
+              <td>Party</td>
+              <td>AMP Cafe</td>
+              <td>オープニングパーティ（前夜祭）〜NO LIMIT 前夜祭 番外地の夜明け〜 第一会場
+               <br> NO LIMIT Opening Party >>Dawn in Bangaichi<< Venue #2</td>
+              <td>¥1000 (1ドリンク付き includes 1 drink) ***</td>  
               <td></td>
             </tr>
 
             <tr>
-              <td></td>
-              <td>Dig A Hole Zines</td>
-              <td>展質会 「Radical Guidebooks to our Futures　Jason Wait　x 池田佳穗 共同企面</td>
+              <td>24:00-</td>
+              <td>Party</td>
+              <td>AMP Cafe</td>
+              <td>アフターパーティー（前夜祭） NO LIMIT Opening Party After-party</td>
+              <td>¥1000 (1ドリンク付き includes 1 drink) ***</td>  
               <td></td>
             </tr>
             
+            <tr>
+              <td>夕方・夜スタート <br> Evening - </td>
+              <td>BAR</td>
+              <td>なんとかbar <br> Nantoka Bar</td>
+              <td>高円寺番外地・第一夜：韓国BAR
+                <br> Koenji Bangaichi Evening #1: Korean BAR</td>
+              <td></td>  
+              <td><a href="https://www.instagram.com/nantoka_bar/" target="_blank" rel="noopener noreferrer"> Instagram</a></td>
+            </tr>
+            
+            <tr>
+              <td>19:00-23:00</td>
+              <td>Music Show + Party</td>
+              <td>SUBstore</td>
+              <td>写真展『叩山門』オープニングLIVEイベント<br>
+                Opening Live Event of Photo Exhibit by Lo Ching Chieh 📷🌲 </td>
+              <td>¥1000 (1ドリンク付き includes 1 drink) ***</td>  
+              <td><a href="https://www.instagram.com/p/Cw9BKPdShDq/" target="_blank" rel="noopener noreferrer"> Instagram Flyer</a></td>
+            </tr>
+
+            <tr>
+              <td>19:00-23:00 <br> (9/22 -10/1)</td>
+              <td>展示 Exhibition</td>
+              <td>SUBstore</td>
+              <td>展示『叩山門』- 世界中を飛び回り、<br> Vogue等で活躍中の写真家Lo Ching Chieh (Taiwan) による写真展
+                <br>Photo Exhibit "Knock on the door. Wait for the call" by Lo Ching Chieh (Taiwan)  </td>
+              <td></td>  
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>13:00-18:00 <br> (9/22 -10/1)</td>
+              <td>展示 Exhibition</td>
+              <td>Dig A Hole Zines</td>
+              <td>"Radical Guidebooks to our Futures" by Jason Wait × Kaho Ikeda </td>
+              <td></td>  
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>19:00-23:00</td>
+              <td>Music Show (DJ)</td>
+              <td>Uptown Records</td>
+              <td>「Instant Hit」- All Female DJ Night! <br>
+                出演：Sue Problema (San Francisco, USA) + amigo 3, hello shitty, okn.  </td>
+              <td>¥500</td>  
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>13:00-20:00 <br> (9/22 - 10/1 <br>except Wed)</td>
+              <td>フリマ Flea Market</td>
+              <td>TERRAPIN STATION  <br> 2Fギャラリーヒミツキチ <br> (2nd floor, Gallery Secret Base)</td>
+              <td>「権現マーケット」個性豊かなアーティストの新旧作品に加え、<br>その個性が滲み出る私物珍品コレクション大放出のアートフリマです。<br>
+                "GONGEN Market" is an art flea market featuring unique artists,<br> showcasing both their new and old creations, as well as their personal and rare collectibles. </td>
+              <td></td>  
+              <td></td>
+            </tr> 
+
             <!-- Add more rows as needed -->
           </table>
-
         </div>
         
         <button class="collapsible">9/23（土）</button>
@@ -63,18 +145,12 @@
           <table>
             <tr>
               <td><b>時間</b></td>
+              <td><b>種類</b></td>
               <td><b>場所</b></td>
-              <td><b>イベント名</b></td>
+              <td><b>イベント内容</b></td>
+              <td><b>¥ 入場料 ¥</b></td>
               <td><b>リンク</b></td>
             </tr> 
-
-            <tr>
-              <td>13:00-19:00</td>
-              <td>Dig A Hole Zines</td>
-              <td>洪十六 (16hon)写真展</td>
-              <td><a href="https://www.digaholezines.com" target="_blank" rel="noopener noreferrer"> https://www.digaholezines.com</a></td>
-            </tr>
-            
             <!-- Add more rows as needed -->
           </table>
         </div>
@@ -84,8 +160,10 @@
           <table>
             <tr>
               <td><b>時間</b></td>
+              <td><b>種類</b></td>
               <td><b>場所</b></td>
-              <td><b>イベント名</b></td>
+              <td><b>イベント内容</b></td>
+              <td><b>¥ 入場料 ¥</b></td>
               <td><b>リンク</b></td>
             </tr> 
             <!-- Add more rows as needed -->
@@ -96,11 +174,14 @@
         <div class="contents">
           <table>
             <tr>
-              <td><b>時間</b></td>
-              <td><b>場所</b></td>
-              <td><b>イベント名</b></td>
-              <td><b>リンク</b></td>
-            </tr> 
+              <tr>
+                <td><b>時間</b></td>
+                <td><b>種類</b></td>
+                <td><b>場所</b></td>
+                <td><b>イベント内容</b></td>
+                <td><b>¥ 入場料 ¥</b></td>
+                <td><b>リンク</b></td>
+              </tr> 
             <!-- Add more rows as needed -->
           </table>
         </div>
@@ -110,8 +191,10 @@
           <table>
             <tr>
               <td><b>時間</b></td>
+              <td><b>種類</b></td>
               <td><b>場所</b></td>
-              <td><b>イベント名</b></td>
+              <td><b>イベント内容</b></td>
+              <td><b>¥ 入場料 ¥</b></td>
               <td><b>リンク</b></td>
             </tr> 
             <!-- Add more rows as needed -->
@@ -123,8 +206,10 @@
           <table>
             <tr>
               <td><b>時間</b></td>
+              <td><b>種類</b></td>
               <td><b>場所</b></td>
-              <td><b>イベント名</b></td>
+              <td><b>イベント内容</b></td>
+              <td><b>¥ 入場料 ¥</b></td>
               <td><b>リンク</b></td>
             </tr> 
             <!-- Add more rows as needed -->
@@ -136,8 +221,10 @@
           <table>
             <tr>
               <td><b>時間</b></td>
+              <td><b>種類</b></td>
               <td><b>場所</b></td>
-              <td><b>イベント名</b></td>
+              <td><b>イベント内容</b></td>
+              <td><b>¥ 入場料 ¥</b></td>
               <td><b>リンク</b></td>
             </tr> 
             <!-- Add more rows as needed -->
@@ -149,8 +236,10 @@
           <table>
             <tr>
               <td><b>時間</b></td>
+              <td><b>種類</b></td>
               <td><b>場所</b></td>
-              <td><b>イベント名</b></td>
+              <td><b>イベント内容</b></td>
+              <td><b>¥ 入場料 ¥</b></td>
               <td><b>リンク</b></td>
             </tr> 
             <!-- Add more rows as needed -->
@@ -162,8 +251,10 @@
           <table>
             <tr>
               <td><b>時間</b></td>
+              <td><b>種類</b></td>
               <td><b>場所</b></td>
-              <td><b>イベント名</b></td>
+              <td><b>イベント内容</b></td>
+              <td><b>¥ 入場料 ¥</b></td>
               <td><b>リンク</b></td>
             </tr> 
             <!-- Add more rows as needed -->
@@ -175,8 +266,10 @@
           <table>
             <tr>
               <td><b>時間</b></td>
+              <td><b>種類</b></td>
               <td><b>場所</b></td>
-              <td><b>イベント名</b></td>
+              <td><b>イベント内容</b></td>
+              <td><b>¥ 入場料 ¥</b></td>
               <td><b>リンク</b></td>
             </tr> 
             <!-- Add more rows as needed -->
@@ -194,7 +287,7 @@
           if (content.style.maxHeight){
               content.style.maxHeight = null;
           } else {
-            content.style.maxHeight = content.scrollHeight + "px";
+           content.style.maxHeight =   content.scrollHeight + "px";
           } 
         });
        }
