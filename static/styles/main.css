@@ -5,6 +5,38 @@ body{
      padding: 0;
 }
 
+.schedule {
+  text-align: center;
+}
+
+.collapsible {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  padding: 18px;
+  width: auto; /* Change width to auto so the button is only on the text */
+  border: none;
+  text-align: center; 
+  outline: none;
+  font-size: 18px;
+  display: inline-flex; /* Change display to inline-flex to center the button */
+  justify-content: center;
+  align-items: center;
+}
+
+.active, .collapsible:hover {
+  background-color: white;
+}
+
+.contents {
+  padding: 0 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+
+
 .container {
      display: flex;
      flex-direction: row;
@@ -14,7 +46,7 @@ body{
 
 .content {
      flex: 1;  
-     padding: 10%;
+     padding: 0%;
      background-color: #ffffff;
      overflow: auto;
    }
@@ -39,6 +71,7 @@ body{
      color: #111;
      padding: 10px 15px;
      border: none;
+     padding-left: 5%;
    }
    
    .sidebar .closebtn {
@@ -105,4 +138,59 @@ body{
 }
 
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%; 
+  overflow-x: auto;
+  display: block;
+  table-layout: fixed; 
+}
 
+th, td {
+  padding: 8px;
+  text-align: left;
+  white-space: normal; 
+  overflow: auto; 
+}
+
+td:nth-child(1){
+  max-width: 110px;
+  min-width: 110px;
+}
+
+td:nth-child(2){
+  max-width: 100px;
+  min-width: 100px;
+}
+
+td:nth-child(3){
+  max-width: 150px;
+  min-width: 150px;
+}
+
+td:nth-child(4){
+  max-width: 450px;
+  min-width: 450px;
+}
+
+td:nth-child(5){
+  max-width: 120px;
+  min-width: 120px;
+}
+
+td:nth-child(6){
+  max-width: 120px;
+  min-width: 120px;
+}
+
+h1, h2, h3, h4, p, img {
+     padding-right: 5%;
+     padding-left: 5%;
+}
+
+ul {
+     padding-right: 5%;
+     padding-left: 7%;
+}
