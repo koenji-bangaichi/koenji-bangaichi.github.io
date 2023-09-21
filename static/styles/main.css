@@ -200,3 +200,7 @@ ul {
      padding-right: 5%;
      padding-left: 7%;
 }
+
+li {
+     margin: 10px 0;
+}
